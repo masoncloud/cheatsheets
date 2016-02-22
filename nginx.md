@@ -59,6 +59,24 @@ Instead of having Nginx pass things along via TCP, you may use a Unix domain soc
         ...
     }
 
+### Default Log Location on Ubuntu/Debian
+
+Unless declared explicitly within a site configuration, Nginx will log to the following files:
+
+ * access_log `/var/log/nginx/access.log`
+ * error_log `/var/log/nginx/error.log`
+ 
+These settings may be changed in `/etc/nginx/nginx.conf` or overridden within your specific server configuration files as the example below shows:
+
+     server {
+        ...
+        
+        access_log /var/log/nginx/mysite.domain.com.access.log
+        error_log /var/log/nginx/mysite.domain.com.error.log
+        
+        ...
+     }
+
 ### Verify Current Nginx Configuration is Valid
 
     sudo nginx -t
@@ -72,5 +90,7 @@ Instead of having Nginx pass things along via TCP, you may use a Unix domain soc
 ### Reload Nginx Configuration
 
     sudo service nginx reload
+    
+
 
     
