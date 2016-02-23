@@ -71,7 +71,7 @@ The below procedure will get a fresh Deb/Ub install up and running as a Baikal C
                 SSLEngine on
         
                 SSLCertificateFile    /etc/apache2/ssl/cal_domain_com.crt
-                SSLCertificateKeyFile /etc/apache2/ssl/server.key
+                SSLCertificateKeyFile /etc/apache2/ssl/cal.domain.com.key
                 SSLCACertificateFile  /etc/apache2/ssl/cal_domain_com.ca-bundle
         
                 <FilesMatch "\.(cgi|shtml|phtml|php)$">
