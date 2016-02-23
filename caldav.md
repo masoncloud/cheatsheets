@@ -32,19 +32,19 @@ The below procedure will get a fresh Deb/Ub install up and running as a Baikal C
 2. Setup your certificates. Personally, I'm a fan of the $9 certs at namecheap.com. If you have your own CA, or solution, feel free to skip ahead. 
     1. Generate a CSR.
 
-        sudo mkdir /etc/apache2/ssl
-        openssl req -new -newkey rsa:2048 -nodes -keyout /etc/apache2/ssl/cal.domain.com.key -out /etc/apache2/ssl/cal.domain.com.csr
-        cat /etc/apache2/ssl/cal.domain.com.csr
+            sudo mkdir /etc/apache2/ssl
+            openssl req -new -newkey rsa:2048 -nodes -keyout /etc/apache2/ssl/cal.domain.com.key -out /etc/apache2/ssl/cal.domain.com.csr
+            cat /etc/apache2/ssl/cal.domain.com.csr
     
     2. Use the CSR to obtain a cert. Once you have it, upload it from your local machine.
     
-        scp ~/Downloads/cal_domain_com.zip ubuntu@cal.domain.com:/home/ubuntu/cal_domain_com.zip
+            scp ~/Downloads/cal_domain_com.zip ubuntu@cal.domain.com:/home/ubuntu/cal_domain_com.zip
     
     3. Back on the server, move it in to the SSL dir and unpack it.
     
-        sudo mv /home/ubuntu/cal_domain_com.zip /etc/apache2/ssl/
-        cd /etc/apache2/ssl/
-        sudo unzip cal_domain_com.zip
+            sudo mv /home/ubuntu/cal_domain_com.zip /etc/apache2/ssl/
+            cd /etc/apache2/ssl/
+            sudo unzip cal_domain_com.zip
 
 3. Next we'll create an apache site configure for secure requests. Open up a config file `sudo vi /etc/apache2/sites-available/cal.domain.com-ssl.conf` and place the following in. Be sure to double check cal.domain.com has been replaced with your own domain.
         
