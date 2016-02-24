@@ -79,6 +79,24 @@ Also, within your TEMPLATES parameters, you may also want to set this DEBUG sett
 
     python manage.py test specific_tests
     
+### Verify Model Raises Validation Error on Invalid Value Within Unit Test
+
+    from django.core.exceptions import ValidationError
+    ...
+    
+        def test_some_invalid_input(self):
+            
+            item = Item(value='invalid_value')
+            
+            with self.assertRaises(ValidationError):
+                item.save()
+                
+### Verify Validation When Database Backend Does Not Support Constraint Defined in Model
+
+    with self.assertRaises(ValidationError):
+        item.save()
+        item.full_clean()
+        
 ## Production
 
 ### Using Gunicorn to Serve Your Django Application
@@ -97,3 +115,9 @@ Gunicorn may be used as a WSGI HTTP server to server your Django application. Th
 ### Make Gunicorn Use Unix Domain Sockets Instead of Binding to a TCP Port
 
     gunicorn --bind unix:/tmp/some_app.domain.com.socket django_project.wsgi:application
+    
+## Templates
+
+### Concatenate Value to Argument Sent to Include
+
+    {% include 'widget.html' with action=some_var|add:"/new" %}

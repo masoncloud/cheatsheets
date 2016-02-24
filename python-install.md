@@ -1,4 +1,4 @@
-# Installing Python
+# Python Installation
 
 ### Typical Python Installation on Ubuntu/Debian
 
