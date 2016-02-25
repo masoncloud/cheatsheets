@@ -26,7 +26,7 @@
     
     class Highlander(models.Model):
     
-        name = 'Connor'
+        name = models.TextField(default='Connor', choices=('Connor',))
         remake_number = models.TextField(default='')
         immortals = models.ForeignKey(Immortals, default=None)
         
