@@ -22,6 +22,7 @@
 ### Instruct a model to enforce uniqueness across several sets
         
     from django.db import models
+    from app.models import Immortals
     
     
     class Highlander(models.Model):
@@ -30,7 +31,20 @@
         remake_number = models.TextField(default='')
         immortals = models.ForeignKey(Immortals, default=None)
         
-        class Meta
+        class Meta:
         
             unique_together = (('name', 'immortals'), ('name', remake_number'))
+
+
+### Specify field which objects should ordered by
+
+    from django.db import models
+    
+    
+    class Duck(models.Model):
+    
+        height = models.DecimalField(decimal_places=1, max_digits=4, default=0)
         
+        class Meta:
+        
+            ordering = ['height']
