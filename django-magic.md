@@ -2,7 +2,7 @@
 
 Here are some magical maneuvers for your displeasure. 
 
-### Because URL Definitions Belong in the Model, Said No One Ever
+### Because URL definitions belong in the model, said no one ever
 
     [model.py]
     from django.db import models
