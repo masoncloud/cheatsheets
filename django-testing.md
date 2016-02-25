@@ -35,3 +35,20 @@
         # Calling is_valid will validate input and also populate form.errors
         self.assertFalse(form.is_valid())
         self.assertEqual(form.errors['should_not_be_empty'], ['Should not be empty should not be empty'])
+
+### Verify page returns correct template
+
+    def test_page_uses_correct_template(self):
+    
+        response = self.client.get('/some_resource')
+        self.assertTemplateUsed(response, 'some_resource.html')
+
+### Verify page uses correct form
+
+    from resources.form import ResourceForm
+    ...
+    
+    def test_page_uses_correct_form(self):
+    
+        response = self.client.get('/some_resource')
+        self.assertIsInstance(response.context['form'], ResourceForm)

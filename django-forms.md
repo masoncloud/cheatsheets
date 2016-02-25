@@ -53,3 +53,24 @@
             error_messages = {
                 'field_a': {'required': 'Field A must have a value specified.'}
             }
+
+### Use form in template
+
+    [view.py]
+    from items.forms import ItemForm
+    
+    
+    def home_page(request):
+        
+        return render(request, 'home.html', {'form': ItemForm()})
+    
+    
+    [home.html]
+    <form method="POST">
+        {{ form.field_a }}
+        ...
+
+### Access database object completed form is bound to
+
+    item_form = ItemForm()
+    item_instance = item_form.instance
