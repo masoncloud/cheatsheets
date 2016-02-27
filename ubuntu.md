@@ -1,4 +1,6 @@
-# Ubuntu User Administration
+# Ubuntu
+
+## User Administration
 
 ### Adding a new user, granting sudo, and setting password
 
@@ -6,8 +8,17 @@
     sudo useradd -m -s /bin/bash $NEWUSER
     sudo usermod -a -G sudo $NEWUSER
     sudo passwd $NEWUSER
-    
-### Determine Number of Processors/Cores/Sockets on a System
+
+### Allow group to run sudo without providing password
+
+Open up sudoers configuration via `sudo visudo`. For a given group, consider the following directive which uses the `admin` group as an example:
+
+    %admin  ALL=(ALL) NOPASSWD:ALL
+
+
+## System
+
+### Determine number of processors/cores/sockets on a system
 
 Keep in mind:
 

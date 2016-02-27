@@ -1,6 +1,6 @@
 # Upstart
 
-### Use Upstart to Have an App Start at System Boot
+### Use upstart to have an app start at system boot
 
 Create an Upstart configuration file for your app:
 
@@ -30,3 +30,7 @@ Within this file, consider the following template to have the following take pla
 The app may now be launched via
 
     sudo start a-very-fancy-app
+
+### Determine status of upstart job
+
+    sudo status <job name>
