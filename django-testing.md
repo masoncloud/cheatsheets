@@ -52,3 +52,17 @@
     
         response = self.client.get('/some_resource')
         self.assertIsInstance(response.context['form'], ResourceForm)
+
+### Obtain returned HTML from Django test client
+
+    response = self.client.get('/something')
+    html = response.content
+    
+    # To test if string in content
+    self.assertIn('something', response.content.decode())
+    
+### Run a single test within a test case
+
+Provide the full module namespace to access the individual test:
+
+    python manage.py test functional_tests.test_items.ItemTests.test_specific_test

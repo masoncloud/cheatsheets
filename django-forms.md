@@ -72,5 +72,14 @@
 
 ### Access database object completed form is bound to
 
+    # If item is certainly saved
     item_form = ItemForm()
     item_instance = item_form.instance
+    
+    # Otherwise, the save method will return the instance when saved
+    item_form = ItemForm()
+    item_instance = item_form.save()
+
+### Access form field error within template
+
+    form.field.errors
