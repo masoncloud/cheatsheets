@@ -70,3 +70,8 @@ By default, push does not include tags. To include:
 
     git log --graph --oneline --decorate
 
+## Remote Repositories
+
+### Difference between fetch and pull
+
+`fetch` will download any changes from the remote branch, updating your repository data, but leaving your local branch unchanged. `pull` will perform a `fetch` and additionally `merge` the changes into your local branch. What's the difference? `pull` updates your local branch with changes from the pulled branch. A `fetch` does not advance your local branch. [Source](http://stackoverflow.com/questions/14894768/git-fetch-vs-pull-merge-vs-rebase)
