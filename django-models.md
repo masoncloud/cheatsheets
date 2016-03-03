@@ -48,3 +48,17 @@
         class Meta:
         
             ordering = ['height']
+
+### Create and use a custom ID field
+
+The below example overrides the default integer id field with a UUID datatype. 
+
+    import uuid
+    from django.db import models
+    
+    
+    class Item(models.Model):
+        
+        id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+         
+ 
