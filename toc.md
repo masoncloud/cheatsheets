@@ -42,6 +42,7 @@
  * [Django Templates](https://github.com/LAHacknight/cheatsheets/blob/master/django-templates.md#django-templates)
      * [Concatenate value to argument sent to include](https://github.com/LAHacknight/cheatsheets/blob/master/django-templates.md#concatenate-value-to-argument-sent-to-include)
      * [Access current iteration count of a template loop](https://github.com/LAHacknight/cheatsheets/blob/master/django-templates.md#access-current-iteration-count-of-a-template-loop)
+     * [Access content in inherited template block](https://github.com/LAHacknight/cheatsheets/blob/master/django-templates.md#access-content-in-inherited-template-block)
  * [Django Testing](https://github.com/LAHacknight/cheatsheets/blob/master/django-testing.md#django-testing)
      * [Run all tests](https://github.com/LAHacknight/cheatsheets/blob/master/django-testing.md#run-all-tests)
      * [Running specific tests](https://github.com/LAHacknight/cheatsheets/blob/master/django-testing.md#running-specific-tests)
