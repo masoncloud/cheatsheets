@@ -1,3 +1,7 @@
+ * [Angular](https://github.com/LAHacknight/cheatsheets/blob/master/angular.md#angular)
+     * [Use ng-bind directive to avoid flashing](https://github.com/LAHacknight/cheatsheets/blob/master/angular.md#use-ng-bind-directive-to-avoid-flashing)
+     * [One-time data binding](https://github.com/LAHacknight/cheatsheets/blob/master/angular.md#one-time-data-binding)
+     * [Cause model to only update on blur (loss of focus)](https://github.com/LAHacknight/cheatsheets/blob/master/angular.md#cause-model-to-only-update-on-blur-loss-of-focus)
  * [AWS](https://github.com/LAHacknight/cheatsheets/blob/master/aws.md#aws)
      * [Spinning up an EC2 Instance, the Clicky Way](https://github.com/LAHacknight/cheatsheets/blob/master/aws.md#spinning-up-an-ec2-instance-the-clicky-way)
      * [Setting up Route 53 to Host DNS, the Clicky Way](https://github.com/LAHacknight/cheatsheets/blob/master/aws.md#setting-up-route-53-to-host-dns-the-clicky-way)
