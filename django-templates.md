@@ -1,5 +1,13 @@
 # Django Templates
 
+### Include existing template in current template with arguments
+
+    [_example_template_to_include.html]
+    <h1>{{ greeting }} {{ target }}</h1>
+    
+    [normal_template.html]
+    {% include "_example_template_to_include.html" with greeting="Hello" target="World" %}
+
 ### Concatenate value to argument sent to include
 
     {% include 'widget.html' with action=some_var|add:"/new" %}
@@ -34,4 +42,20 @@ Would yield the following output
 
     <h1>Content</h1>
     <p>Some content</p>
-    
+
+### Place comment inside template
+
+Multiline comment:
+
+    {% comment 'Optional note' %}
+    ... ignored lines
+    {% endcomment %}
+
+Single line:
+
+    {# Comment #}
+
+
+### Access GenericView's choices inside a template
+
+    form.fields.field_name.choices
