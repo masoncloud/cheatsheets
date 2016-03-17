@@ -59,3 +59,7 @@ Single line:
 ### Access GenericView's choices inside a template
 
     form.fields.field_name.choices
+    
+### Format a datetime 
+
+    { item.date_time|date:"Y-m-d" }

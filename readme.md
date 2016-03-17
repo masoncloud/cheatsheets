@@ -57,6 +57,7 @@ Looking for a quick tutorial or have one you'd like to share? Here's the place.
      * [Access content in inherited template block](https://github.com/LAHacknight/cheatsheets/blob/master/django-templates.md#access-content-in-inherited-template-block)
      * [Place comment inside template](https://github.com/LAHacknight/cheatsheets/blob/master/django-templates.md#place-comment-inside-template)
      * [Access GenericView's choices inside a template](https://github.com/LAHacknight/cheatsheets/blob/master/django-templates.md#access-genericviews-choices-inside-a-template)
+     * [Format a datetime](https://github.com/LAHacknight/cheatsheets/blob/master/django-templates.md#format-a-datetime)
  * [Django Testing](https://github.com/LAHacknight/cheatsheets/blob/master/django-testing.md#django-testing)
      * [Run all tests](https://github.com/LAHacknight/cheatsheets/blob/master/django-testing.md#run-all-tests)
      * [Running specific tests](https://github.com/LAHacknight/cheatsheets/blob/master/django-testing.md#running-specific-tests)
