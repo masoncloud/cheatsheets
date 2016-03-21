@@ -224,7 +224,7 @@ Looking for a quick tutorial or have one you'd like to share? Here's the place.
      * [Use upstart to have an app start at system boot](https://github.com/LAHacknight/cheatsheets/blob/master/upstart.md#use-upstart-to-have-an-app-start-at-system-boot)
      * [Determine status of upstart job](https://github.com/LAHacknight/cheatsheets/blob/master/upstart.md#determine-status-of-upstart-job)
  * [Vim](https://github.com/LAHacknight/cheatsheets/blob/master/vim.md#vim)
-     * [View data has hexdump -C](https://github.com/LAHacknight/cheatsheets/blob/master/vim.md#view-data-has-hexdump--c)
+     * [View data as hexdump -C](https://github.com/LAHacknight/cheatsheets/blob/master/vim.md#view-data-as-hexdump--c)
      * [Disable hex view](https://github.com/LAHacknight/cheatsheets/blob/master/vim.md#disable-hex-view)
      * [Split window with new file open](https://github.com/LAHacknight/cheatsheets/blob/master/vim.md#split-window-with-new-file-open)
      * [Auto complete menu on seen text](https://github.com/LAHacknight/cheatsheets/blob/master/vim.md#auto-complete-menu-on-seen-text)
