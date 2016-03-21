@@ -1,6 +1,6 @@
 # Vim
 
-### View data has hexdump -C
+### View data as hexdump -C
 
     :% ! xxd
 
