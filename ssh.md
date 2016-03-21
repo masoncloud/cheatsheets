@@ -52,3 +52,23 @@ sudoer rights.
     ssh $ADMINUSER@$REMOTEHOST "sudo chown $USERTOADDKEY:$USERTOADDKEY /home/$USERTOADDKEY/.ssh /home/$USERTOADDKEY/.ssh/authorized_keys"
     ssh $ADMINUSER@$REMOTEHOST "sudo chmod 700 /home/$USERTOADDKEY/.ssh"
     ssh $ADMINUSER@$REMOTEHOST "sudo chmod 600 /home/$USERTOADDKEY/.ssh/authorized_keys"
+
+### Bypass host key check
+
+    ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubuntu@ip
+
+### OR, add host key first
+
+    ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+### Deal w/ "Too many authentication failures for <username>" (excessive key offerings)
+    
+    # Add entry ~/.ssh/config
+    Host 192.168.54.54
+    IdentityFile ~/.ssh/<specific identify file>
+    IdentitiesOnly yes
+    Port 22
+    
+### Port forwarding/redirection
+
+    ssh -L <local port>:<remote computer>:<remote port> <user>@<remote ip>

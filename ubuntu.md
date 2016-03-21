@@ -31,4 +31,8 @@ Keep in mind:
         lscpu
         cat /proc/cpuinfo
         getconf _NPROCESSORS_ONLN
+        
+### Determine release version
+
+    lsb_release -a
 
