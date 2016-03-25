@@ -26,6 +26,7 @@ Looking for a quick tutorial or have one you'd like to share? Here's the place.
          * [Cron to mirror](https://github.com/LAHacknight/cheatsheets/blob/master/debian-apt.md#cron-to-mirror)
          * [Cleaning up data no longer needed](https://github.com/LAHacknight/cheatsheets/blob/master/debian-apt.md#cleaning-up-data-no-longer-needed)
          * [Finally, in /etc/apt/sources.list, add your repo hostname](https://github.com/LAHacknight/cheatsheets/blob/master/debian-apt.md#finally-in-etcaptsourceslist-add-your-repo-hostname)
+         * [Determine which package owns a given file](https://github.com/LAHacknight/cheatsheets/blob/master/debian-apt.md#determine-which-package-owns-a-given-file)
          * [Tuts](https://github.com/LAHacknight/cheatsheets/blob/master/debian-apt.md#tuts)
  * [DHCP](https://github.com/LAHacknight/cheatsheets/blob/master/dhcp.md#dhcp)
      * [ISC DHCP Server](https://github.com/LAHacknight/cheatsheets/blob/master/dhcp.md#isc-dhcp-server)

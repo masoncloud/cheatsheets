@@ -55,6 +55,10 @@
     
     deb http://<mirror_hostname>/debian/ jessie-updates main
     deb-src http://<mirror_hostname>/debian/ jessie-updates main
+    
+### Determine which package owns a given file
+
+    dpkg-query -S <path/filename>
 
 
 ### Tuts
