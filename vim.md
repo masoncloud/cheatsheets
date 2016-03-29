@@ -82,7 +82,7 @@ Stylizing
 
 ### Movements
 
-Mneumonics:
+Mnemonics:
 
 * Up
 * Down
