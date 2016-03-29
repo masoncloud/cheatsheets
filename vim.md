@@ -78,3 +78,40 @@ Stylizing
 
     git clone https://github.com/jmcantrell/vim-virtualenv.git ~/.vim/bundle/vim-virtualenv
 
+## Navigating
+
+### Movements
+
+Mneumonics:
+
+* Up
+* Down
+* Forward
+* Back
+* Home
+* Middle
+* Last
+
+    ctrl+u: half-page up
+    ctrl+d: half-page down
+    ctrl+b: page up
+    ctrl+f: page down
+
+    z return: current line to top of screen
+    NNz return: move line number (NN) to top of screen
+    z.: current line to middle of screen
+    z-: current line to bottom of screen
+
+    H: moves cursor to top of screen
+    M: moves cursor to middle of screen
+    L: moves cursor to bottom of screen
+    
+    e: move to end of word
+    b: move back a word
+    w: moves forward to start of next word
+
+    E: move to end of word, ignoring symbols
+    B: move back a word, ignoring symbols
+    W: moves forward to start of next word, ignoring symbols
+    
+
