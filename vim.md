@@ -114,4 +114,38 @@ Mnemonics:
     B: move back a word, ignoring symbols
     W: moves forward to start of next word, ignoring symbols
     
+## File operations
 
+### Save currently open file with different name
+
+    :saveas
+
+### Launch file explorer
+
+    :Explore
+    :e.
+
+    # In split mode (short for split explore)
+    :Sex
+
+    # In vertical split mode
+    :Vex
+
+## Window operations
+
+### Split pane movements
+    
+    :split <filename> ::split window and open other file in it
+    :vsplit <filename> ::vertically split window and open other file in it
+
+    ctrl+w <direction>: Move focus to pane in arrow direction
+    ctrl+w q: Close a window
+    ctrl+w o: Close all windows except current
+    :on same as above
+
+## Text manipulations
+
+### Copy & pasting
+
+    y$: Copy text to from cursor position to end of current line (yank)
+    p: Paste text in copy buffer
