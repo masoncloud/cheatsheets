@@ -113,6 +113,9 @@ Mnemonics:
     E: move to end of word, ignoring symbols
     B: move back a word, ignoring symbols
     W: moves forward to start of next word, ignoring symbols
+
+    gg: Jump to beginning of file
+    G: Jump to end of file
     
 ## File operations
 
@@ -157,3 +160,6 @@ Say you want to have default 4 space tabs, but for html 2 space tabs (in vimrc):
     set sw=4 ts=4 sts=4
     autocmd FileType html :setlocal sw=2 ts=2 sts=2
 
+### Comment out block of text
+
+Move cursor to starting line, press `CTRL+V` and arrow down to select all lines you would like to comment. Then go into insert mode `SHIFT+I` and insert the comment character (e.g. `#`, `//`, etc), then press `ESCAPE`.
