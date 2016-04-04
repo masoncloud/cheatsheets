@@ -5,6 +5,11 @@
 ### Installing Nginx on Ubuntu/Debian via APT Package
 
     sudo apt-get install nginx
+
+### Installating on MacOS
+
+    brew install nginx
+    # Configuration in /usr/local/etc/nginx/nginx.conf
     
 ## Configuration
 

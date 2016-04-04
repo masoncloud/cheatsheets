@@ -15,3 +15,7 @@
 ### Navigating split panes
 
     command+option+<arrow key in direction of pane>
+
+### Set window title for current session
+
+Press CMD-I, then enter the title for the window in the "Session Title" fields, then press escape.
