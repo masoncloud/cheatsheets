@@ -149,3 +149,11 @@ Mnemonics:
 
     y$: Copy text to from cursor position to end of current line (yank)
     p: Paste text in copy buffer
+
+### Set tabstop, shiftwidth, softtabstop based on file type
+
+Say you want to have default 4 space tabs, but for html 2 space tabs (in vimrc):
+
+    set sw=4 ts=4 sts=4
+    autocmd FileType html :setlocal sw=2 ts=2 sts=2
+

@@ -65,12 +65,21 @@ Instead of having Nginx pass things along via TCP, you may use a Unix domain soc
         ...
     }
 
+### Configure Nginx to only listen on localhost
+
+    server {
+        ...
+        listen 127.0.0.1:8080
+    }
+
 ### Default Log Location on Ubuntu/Debian
 
 Unless declared explicitly within a site configuration, Nginx will log to the following files:
 
  * access_log `/var/log/nginx/access.log`
  * error_log `/var/log/nginx/error.log`
+
+On MacOS, they will be present in `/usr/local/var/log/nginx`.
  
 These settings may be changed in `/etc/nginx/nginx.conf` or overridden within your specific server configuration files as the example below shows:
 
@@ -89,11 +98,29 @@ These settings may be changed in `/etc/nginx/nginx.conf` or overridden within yo
 
 ## Usage
 
-### Starting Nginx Web Server
+### Starting Nginx web Ssrver
+
+Debian/Ubuntu
 
     sudo service nginx start
+
+MacOS
     
-### Reload Nginx Configuration
+    sudo nginx
+
+### Halting Nginx web server
+
+Debian/Ubuntu
+    
+    sudo service nginx stop
+
+MacOS
+
+    sudo nginx -s stop
+    
+### Reload Nginx configuration
+
+Debian/Ubuntu
 
     sudo service nginx reload
     
