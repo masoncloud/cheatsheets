@@ -10,6 +10,7 @@
 
     brew install nginx
     # Configuration in /usr/local/etc/nginx/nginx.conf
+    # Individual server configuration files can go in /usr/local/etc/servers
     
 ## Configuration
 
