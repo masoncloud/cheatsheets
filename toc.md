@@ -190,6 +190,8 @@
      * [Check if value in body](https://github.com/LAHacknight/cheatsheets/blob/master/python-selenium.md#check-if-value-in-body)
      * [Set browser window dimensions](https://github.com/LAHacknight/cheatsheets/blob/master/python-selenium.md#set-browser-window-dimensions)
      * [Ask selenium to explicitly wait until an element is present](https://github.com/LAHacknight/cheatsheets/blob/master/python-selenium.md#ask-selenium-to-explicitly-wait-until-an-element-is-present)
+ * [Python Tkinter](https://github.com/LAHacknight/cheatsheets/blob/master/python-tkinter.md#python-tkinter)
+     * [Setting up on MacOS with brew](https://github.com/LAHacknight/cheatsheets/blob/master/python-tkinter.md#setting-up-on-macos-with-brew)
  * [Python Unittest](https://github.com/LAHacknight/cheatsheets/blob/master/python-unittest.md#python-unittest)
      * [How to temporarily skip a unit test](https://github.com/LAHacknight/cheatsheets/blob/master/python-unittest.md#how-to-temporarily-skip-a-unit-test)
      * [Force a test to fail](https://github.com/LAHacknight/cheatsheets/blob/master/python-unittest.md#force-a-test-to-fail)
