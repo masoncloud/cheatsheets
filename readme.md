@@ -209,6 +209,7 @@ Looking for a quick tutorial or have one you'd like to share? Here's the place.
      * [Deactivate Current Virtual Environment](https://github.com/LAHacknight/cheatsheets/blob/master/python-venv.md#deactivate-current-virtual-environment)
  * [React](https://github.com/LAHacknight/cheatsheets/blob/master/react.md#react)
      * [Comment out line or block](https://github.com/LAHacknight/cheatsheets/blob/master/react.md#comment-out-line-or-block)
+     * [Why isn't my map propagating a function?](https://github.com/LAHacknight/cheatsheets/blob/master/react.md#why-isnt-my-map-propagating-a-function)
  * [REST](https://github.com/LAHacknight/cheatsheets/blob/master/rest.md#rest)
      * [RESTful methods](https://github.com/LAHacknight/cheatsheets/blob/master/rest.md#restful-methods)
  * [Robocopy](https://github.com/LAHacknight/cheatsheets/blob/master/robocopy.md#robocopy)
