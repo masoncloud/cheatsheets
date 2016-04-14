@@ -4,6 +4,7 @@ Looking for a quick tutorial or have one you'd like to share? Here's the place.
 
 ## Table of Contents
 
+
  * [Angular](https://github.com/LAHacknight/cheatsheets/blob/master/angular.md#angular)
      * [Use ng-bind directive to avoid flashing](https://github.com/LAHacknight/cheatsheets/blob/master/angular.md#use-ng-bind-directive-to-avoid-flashing)
      * [One-time data binding](https://github.com/LAHacknight/cheatsheets/blob/master/angular.md#one-time-data-binding)
@@ -151,6 +152,9 @@ Looking for a quick tutorial or have one you'd like to share? Here's the place.
          * [Temporarily add VLAN](https://github.com/LAHacknight/cheatsheets/blob/master/linux-networking.md#temporarily-add-vlan)
          * [Temporarily set ip on vlan interface](https://github.com/LAHacknight/cheatsheets/blob/master/linux-networking.md#temporarily-set-ip-on-vlan-interface)
          * [Perm in /etc/network/interfaces example](https://github.com/LAHacknight/cheatsheets/blob/master/linux-networking.md#perm-in-etcnetworkinterfaces-example)
+ * [MacOS](https://github.com/LAHacknight/cheatsheets/blob/master/macos.md#macos)
+     * [Open URL with default browser from the command line](https://github.com/LAHacknight/cheatsheets/blob/master/macos.md#open-url-with-default-browser-from-the-command-line)
+     * [Force child folders/files in a MacOS Windows file share to inherit parent permissions](https://github.com/LAHacknight/cheatsheets/blob/master/macos.md#force-child-foldersfiles-in-a-macos-windows-file-share-to-inherit-parent-permissions)
  * [Mail](https://github.com/LAHacknight/cheatsheets/blob/master/mail.md#mail)
      * [Send message via command line (one-liner)](https://github.com/LAHacknight/cheatsheets/blob/master/mail.md#send-message-via-command-line-one-liner)
  * [Minecraft](https://github.com/LAHacknight/cheatsheets/blob/master/minecraft.md#minecraft)
@@ -173,6 +177,9 @@ Looking for a quick tutorial or have one you'd like to share? Here's the place.
  * [npm](https://github.com/LAHacknight/cheatsheets/blob/master/npm.md#npm)
      * [Initialize npm environment](https://github.com/LAHacknight/cheatsheets/blob/master/npm.md#initialize-npm-environment)
      * [Install an npm package](https://github.com/LAHacknight/cheatsheets/blob/master/npm.md#install-an-npm-package)
+     * [List installed packages](https://github.com/LAHacknight/cheatsheets/blob/master/npm.md#list-installed-packages)
+     * [Update existing package](https://github.com/LAHacknight/cheatsheets/blob/master/npm.md#update-existing-package)
+     * [Determine if packages have updates](https://github.com/LAHacknight/cheatsheets/blob/master/npm.md#determine-if-packages-have-updates)
  * [PyCharm](https://github.com/LAHacknight/cheatsheets/blob/master/pycharm.md#pycharm)
      * [Mark Subfolder Within Project as Source](https://github.com/LAHacknight/cheatsheets/blob/master/pycharm.md#mark-subfolder-within-project-as-source)
  * [Python Cython](https://github.com/LAHacknight/cheatsheets/blob/master/python-cython.md#python-cython)
